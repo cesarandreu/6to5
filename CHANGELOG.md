@@ -124,6 +124,7 @@ _Note: Gaps between patch versions are faulty/broken releases._
   * Added `--blacklist` and `--whitelist` options to `6to5-node`.
  * **Breaking Change**
   * Caching is now always enabled for the require hook. It also now no longer caches require resolutions.
+  * Removed `--cache` option from `6to5-node`
   * Bare `super();` only works inside of constructors.
   * Removed the optional runtime in favor of the `selfContained` transformer.
   * This shorthand has been removed from the playground.
